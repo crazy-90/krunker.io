@@ -1,0 +1,440 @@
+/* Watermark? */
+#menuRegionLabel:after {
+	position: fixed;
+	bottom: 0.5%;
+	right: 0.5%;
+	content: "CSS: Black Lune | remake by piz";
+	width: max-content
+}
+
+
+/* Removals */
+#gameNameHolder,
+#tlInfHold,
+#topLeftAdHolder,
+#topRightAdHolder,
+#streamContainer,
+#newsHolder,
+#aHolder,
+#headerRightSocial,
+#termsInfo,
+#pollfishIndicator,
+.menuItemTitle,
+#menuClassSubtext,
+#menuClassName,
+#menuClassIcn,
+#timerIcon,
+#bottomLeftPlayerLeft,
+#bottomLeftTeamHolder,
+#bottomLeftChallIcon,
+#ammoMax,
+#ammoIcon,
+.weapSkin,
+.weapStreakHolder {
+    display: none !important;
+}
+
+
+/* Menu items */
+#menuItemContainer {
+    background: unset;
+}
+#menuItemContainer:before {
+    content: "";
+    position: absolute;
+    left: -100px;
+    right: 0;
+    top: -100px;
+    bottom: 0;
+    background: black;
+    z-index: -1;
+    transform: rotate(-5deg);
+    width: 270px;
+    height: 1500px;
+}
+#menuItemContainer:after {
+    content: "";
+    position: absolute;
+    left: -200px;
+    bottom: -220px;
+    background: black;
+    z-index: -1;
+    width: 613px;
+    height: 613px;
+    border-radius: 100%;
+    border: 12px solid white;
+}
+.menuItem {
+    transform: rotate(-45deg)
+}
+.menBtnIcn  {
+    background: white;
+    border: 8px solid black;
+    border-radius: 100%;
+    padding: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    flex-grow: unset;
+}
+.menBtnIcn[style="color:#fff"] {
+    color: green !important
+}
+.menuItem:hover .menBtnIcn {
+	transform: scale(1);
+	color: black !important;
+}
+.menuItem[onclick*="profile"] {
+    position: fixed;
+    bottom: 360px;
+}
+.menuItem[onclick*="shop_crafting"] {
+    position: fixed;
+    bottom: 367px;
+    left: 105px;
+}
+.menuItem[onclick*="challenges"] {
+    position: fixed;
+    bottom: 340px;
+    left: 203px;
+}
+.menuItem[onclick*="hub"] {
+    position: fixed;
+    bottom: 280px;
+    left: 288px;
+}
+.menuItem[onclick*="games"] {
+    position: fixed;
+    bottom: 195px;
+    left: 350px;
+}
+.menuItem[onclick*="mod"] {
+    position: fixed;
+    bottom: 100px;
+    left: 383px;
+}
+.menuItem[onclick*="setting"] {
+    position: fixed;
+    bottom: -1px;
+    left: 385px;
+}
+
+
+
+/* Circle customize button */
+#customizeButton {
+    font-size: 0 !important;
+    width: max-content;
+    padding: 175px;
+    position: fixed;
+    left: -100px;
+    bottom: -100px;
+    border-radius: 100%;
+    border: 12px solid white !important;;
+    background: black;
+    z-index: 1;
+}
+#customizeButton span {
+    transform: scale(2)
+}
+
+
+/* Buttons */
+#subLogoButtons {
+    transform: unset;
+}
+#policeButton {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    padding: 5px !important;
+    border-color: white !important
+}
+#menuBtnHost {
+    position: fixed;
+    top: 100px;
+    left: 0.5%;
+    border: unset !important;
+    background: transparent;
+    border-bottom: 4px solid white !important;
+    border-radius: 0;
+    font-size: 16px !important;
+}
+#menuBtnBrowser {
+    position: fixed;
+    top: 200px;
+    left: 3%;
+    border: unset !important;
+    background: transparent;
+    border-bottom: 4px solid white !important;
+    border-radius: 0;
+    font-size: 0px !important;
+}
+#inviteButton {
+    position: fixed;
+    top: 300px;
+    left: 4.5%;
+    border: unset !important;
+    background: transparent;
+    border-bottom: 4px solid white !important;
+    border-radius: 0;
+    font-size: 16px !important;
+}
+#menuBtnJoin {
+    position: fixed;
+    top: 400px;
+    left: 6%;
+    border: unset !important;
+    background: transparent;
+    border-bottom: 4px solid white !important;
+    border-radius: 0;
+    font-size: 16px !important;
+}
+#menuBtnHost:before,
+#inviteButton:before,
+#menuBtnJoin:before {
+    content: "- "
+}
+#menuBtnHost:after,
+#inviteButton:after,
+#menuBtnJoin:after {
+    content: " -"
+}
+#menuBtnBrowser:after {
+    content: "- Servers -";
+    font-size: 16px
+}
+
+
+/* Map info */
+#mapInfoHld {
+    position: fixed;
+    top: 500px;
+    left: 7%;
+    font-size: 0;
+    border-bottom: 4px solid white;
+}
+#mapInfo {
+    font-size: 16px;
+}
+
+
+/* Class preview */
+#classPreviewCanvas {
+    width: 750px !important;
+    height: 600px !important;
+    position: fixed;
+    left: 50%;
+    bottom: 3%;
+    transform: translate(-50%) ;
+}
+
+
+/* Spectate button */
+#uiBase.onMenu #spectButton {
+    position: fixed;
+    left: 49% !important;
+    top: 53%;
+    transform: translate(-49%) !important
+}
+#uiBase.onMenu #spectButton span {
+    font-size: 0 !important
+}
+.sliderSml,
+input:checked + .sliderSml {
+    background: transparent;
+}
+.sliderSml::before {
+    font-family: 'Material Icons';
+	content: "visibility_off";
+	font-size: 54px;
+	width: max-content;
+	height: auto;
+    padding: 5px;
+	background: black;
+    color: white;
+	left: unset;
+	bottom: unset;
+    border: 2px solid white;
+}
+input:checked + .sliderSml::before {
+	opacity: 1;
+	content: "visibility";
+	transform: unset;
+}
+
+
+/* Chat */
+#uiBase.onMenu #chatHolder {
+    left: unset;
+    right: 1%;
+	bottom: 3% !important;
+}
+#chatHolder {
+	bottom: 3% !important
+}
+#chatList {
+    background: linear-gradient(to right, rgba(0 0 0 / 80%), transparent) !important
+}
+#chatInputHolder {
+	background: rgba(0 0 0 / 30%)
+}
+.chatItem {
+    background: transparent !important;
+}
+div[id^="chatMsg_"] {
+  border-bottom: 3px solid white;
+}
+.greyInner, .greyInlineInner, .greyInlineInnerMid {
+	background: transparent
+}
+.greyInlineInner {
+	display: none
+}
+
+
+/* Timer */
+#timerHolder.topLeftOld,
+#timerInner.topLeftOld {
+	background: transparent
+}
+#timerHolder.topLeftOld {
+	position: fixed;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%) translateY(-20%);
+}
+#timerVal.topLeftOld {
+	color: darkblue;
+	text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black !important
+}
+
+
+/* Health */
+#bottomLeftHealth {
+	color: cyan;
+	font-size: 32px;
+	position: fixed;
+	left: 38%;
+	bottom: 30%;
+	transform: translateX(-38%) translateY(-30%);
+	text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black !important
+}
+#bottomLeftPlayerMid {
+	position: fixed;
+	bottom: 1%;
+	left: 50%;
+	transform: translateX(-50%)
+}
+#bottomLeftHealthBar {
+	padding: unset;
+	column-gap: unset;
+	margin-right: -1px;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+.nHealthBarSeg,
+.nHpBSeg {
+	height: 10px;
+	border-radius: 0;
+	width: 40px;
+}
+.nHealthBarSeg:first-child .nHpBSeg{
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.nHealthBarSeg:last-child .nHpBSeg {
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+
+/* Ammo */
+#ammoHolder {
+	position: fixed;
+	right: 35%;
+	bottom: 29%;
+	transform: translateX(-38%) translateY(-27.9%);
+	background-color: transparent
+}
+#ammoVal {
+	color: purple;
+	font-size: 32px;
+	text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black !important
+}
+
+
+/* Weapon */
+#weapItem_1,
+#weapItem_2 {
+	margin-right: 25px;
+}
+.weapItem,
+.weapItemInner,
+.weapKey {
+	background: transparent
+}
+.weapItem {
+	margin-top: -25px
+}
+.weapKey {
+	position: absolute;
+	right: -150px;
+	top: 10px;
+	font-size: 10px;
+}
+.weapKey::before {
+	content: "[";
+}
+.weapKey::after {
+	content: "]";
+}
+
+
+/* Bottom left, bottom right */
+#bottomLeftPlayer,
+#bottomLeftPlayerRight {
+	background: transparent
+}
+
+
+/* Top left */
+#topLeftBottom {
+	position: fixed;
+	top: 12%;
+	left: 1%;
+}
+#topLeftData {
+	position: fixed;
+	top: 1%;
+	left: 1%
+}
+#pingDisplay{
+	visibility: hidden
+}
+#pingText{
+	visibility: visible
+}
+#pingText:after{
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Material Icons';
+	content: "signal_cellular_alt";
+	font-size: 26px;
+	position: fixed
+}
+#matchInfo.topLeftOld {
+	position: fixed;
+	top: 6%;
+	left: 1%
+}
+
+
+/* Top right, leaderboard */
+#leaderboardHolder,
+.centerLeaderContainer {
+	background: transparent
+}
+#leaderContainer,
+.centerLeaderContainerInner {
+	background: rgba(0 0 0 / 30%);
+	border-radius: 6px
+}
