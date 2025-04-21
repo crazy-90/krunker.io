@@ -311,3 +311,61 @@ iframe#bigMFeatVid,
   border-radius: 4px;
   background-color: rgb(20 20 20 / 0%);
 }
+
+
+#menuItemContainer {
+  position: absolute;
+  left: 0;
+  top: 70px;
+  bottom: 0;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(0 0 0 / 0%) !important;
+}
+
+
+#chatList {
+  overflow-y: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 999999;
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(0 0 0 / 0%);
+  pointer-events: all;
+  position: relative;
+  direction: rtl;
+  text-align: left;
+  box-shadow: unset!important;
+}
+
+
+#leaderboardHolder {
+    text-align: left;
+    float: right;
+    width: 350px;
+    z-index: 3;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 23px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: rgb(20 20 20 / 0%);
+}
+
+#leaderContainer {
+  text-align: left;
+  color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 3px;
+  background-color: rgb(108 108 108 / 0%);
+}
+
+#timerIcon {
+  display: none;
+}
+
+#timerInner {
+  background-color: transparent !important;
+}
