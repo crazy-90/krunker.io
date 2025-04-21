@@ -196,6 +196,7 @@ iframe#bigMFeatVid,
   text-shadow: 2px 2px 5px #00000000;
   left: 15%;
   top: 85%;
+  color: lightpink;
 }
 
 
@@ -218,6 +219,7 @@ iframe#bigMFeatVid,
   right: 42%;
   position: fixed;
   top: 5%;
+  background-color: transparent !important;
 }
 
 
@@ -364,7 +366,7 @@ iframe#bigMFeatVid,
 }
 
 #timerIcon {
-  display: none;
+  display: none !important;
 }
 
 #timerInner {
@@ -431,4 +433,40 @@ iframe#bigMFeatVid,
   text-align: left;
   box-shadow: unset!important;
   width: 200%;
+}
+
+
+#chatInputHolder {
+  width: 413px;
+  font-size: 9px;
+  box-sizing: border-box;
+  background-color: var(--div-black);
+  pointer-events: all;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-grid;
+  grid-template-columns: auto 270px auto;
+  padding-top: 0px!important;
+  position: fixed;
+  box-shadow: unset!important;
+}
+
+
+
+#bottomLeftPlayer {
+  border-radius: 4px;
+  background-color: rgb(20 20 20 / 0%);
+  display: inline-grid;
+  grid-template-columns: auto 250px auto;
+  /* box-shadow: var(--div-shadow); */
+}
+
+
+#timerHolder.topLeftOld {
+  background-color: transparent !important;
+}
+
+#timerIcon {
+  display: none !important;
 }
