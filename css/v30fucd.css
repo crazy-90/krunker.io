@@ -35,9 +35,7 @@
 
 }
 
-#streamContainer {
-  background-color: transparent;
-}
+
 
 /* COMP */
 
@@ -70,7 +68,7 @@ iframe#bigMFeatVid,
     font-size: 20px !important;
     line-height: 35px;
     background-color: rgb(0 0 0 / 0%);
-    border-color: black !important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 
 
