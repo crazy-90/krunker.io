@@ -101,6 +101,8 @@ iframe#bigMFeatVid,
 #mainLogo {
   content: url(https://github.com/crazy-90/krunker.io/blob/main/images/v3ofucdlogoo.png?raw=true);
   align-items: center;
+  width: 50%;
+  height: 50%;
 }
 
 
@@ -108,25 +110,24 @@ iframe#bigMFeatVid,
 
 
 .weapItem {
-  position: relative;
-  text-align: right;
-  color: #fff;
-  font-size: 17px;
-  word-break: break-all;
-  overflow-wrap: break-word;
-  border-radius: 4px;
-  background-color: var(--div-black);
-  left: -369% !important;
+  transition-duration: 0.25s;
+  height: 0;
+  opacity: 0 !important;
+  background-color: transparent;
+  left: -350%;
+  top: -3%;
 }
 
 .weapItemInner {
   background-color: transparent
+  
 }
 
 .weapIcon {
   height: 50%;
   width: 50%;
-  left: 50%;
+  left: -19%;
+  position: relative;
 }
 
 .weapItem[style*="1"] {
@@ -192,7 +193,7 @@ iframe#bigMFeatVid,
   bottom: 30px;
   text-shadow: 2px 2px 5px #00000000;
   left: 15%;
-  top: 85%;
+  top: 83%;
   color: lightpink;
 }
 
@@ -585,4 +586,9 @@ iframe#bigMFeatVid,
 #menuPingDisplay, #menuFPSDisplay {
   font-size: 12px;
   color: lightpink;
+}
+
+#timerHolder.topLeftOld {
+  background-color: transparent !important;
+  left: 47% !important;
 }
