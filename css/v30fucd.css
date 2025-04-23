@@ -108,12 +108,15 @@ iframe#bigMFeatVid,
 
 
 .weapItem {
-  transition-duration: 0.25s;
-  height: 0;
-  opacity: 0 !important;
-  background-color: transparent;
-  left: -350%;
-  top: -3%;
+  position: relative;
+  text-align: right;
+  color: #fff;
+  font-size: 17px;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  border-radius: 4px;
+  background-color: var(--div-black);
+  left: -369% !important;
 }
 
 .weapItemInner {
@@ -296,7 +299,7 @@ iframe#bigMFeatVid,
 }
 
 #streakCount {
-  left: 50% !important;
+  left: 48% !important;
   position: fixed !important;
   bottom: 20% !important;
 }
@@ -564,5 +567,22 @@ iframe#bigMFeatVid,
 #pingDisplay, #fpsDisplay, #ingressDisplay, #egressDisplay, #tickDisplay {
   font-size: 14px;
   vertical-align: top;
+  color: lightpink;
+}
+
+
+.statIcon {
+  color: rgba(255, 255, 255, .6);
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 17px;
+  border-radius: 4px;
+  background-color: rgb(20 20 20 / 0%);
+  color: lightpink;
+}
+
+
+#menuPingDisplay, #menuFPSDisplay {
+  font-size: 12px;
   color: lightpink;
 }
