@@ -40,8 +40,6 @@
 /* COMP */
 
 iframe#bigMFeatVid,
-.itemOwn,
-.itemSea,
 #cmpPartnerImg,
 #cmpLeavInfo,
 #cmpDatBox,
@@ -102,11 +100,9 @@ iframe#bigMFeatVid,
 
 #mainLogo {
   content: url(https://github.com/crazy-90/krunker.io/blob/main/images/v3ofucdlogoo.png?raw=true);
-  height: 350px;
-  right: -500px;
-  position: fixed;
-  top: 0px;
+  align-items: center;
 }
+
 
 
 
@@ -467,4 +463,106 @@ iframe#bigMFeatVid,
 
 #timerIcon {
   display: none !important;
+}
+
+
+#streamContainer {
+  pointer-events: none;
+  padding: 10px;
+  z-index: 20;
+  position: absolute;
+  right: 14px;
+  top: 86px;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.4);
+  min-width: 300px;
+  min-height: 245px;
+  display: none;
+}
+
+.leaderName, .leaderNameM, .leaderNameF {
+  color: lightpink !important;
+  flex-grow: 1;
+  padding-left: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+.leaderScore {
+  margin-left: 8px;
+  text-align: right;
+  color: lightpink !important;
+}
+
+
+.leaderCounter {
+  margin-right: 8px;
+  width: 20px;
+  color: lightpink !important;
+}
+
+
+.leaderItem {
+  display: flex;
+  font-size: 18px;
+  color: lightpink !important;
+}
+
+
+#killsVal, #deathsVal, #streakVal, #myScoreVal, #kdVal {
+  color: lightpink !important;
+}
+
+
+#matchInfo {
+  z-index: 3;
+  color: lightpink !important;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020;
+  /* width: 300px; */
+}
+
+#PC7WaterMark1 {
+  color: lightpink !important;
+}
+
+
+.sliderSml {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a8a8a8;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  pointer-events: all;
+}
+
+
+.menuItem .menuItemTitle {
+  margin-top: -20%;
+  color: #ffffff00;
+}
+
+
+#uiBase.onMenu #spectButton span {
+  font-size: 0px !important;
+}
+
+
+#pingDisplay, #fpsDisplay, #ingressDisplay, #egressDisplay, #tickDisplay {
+  font-size: 14px;
+  vertical-align: top;
+  color: lightpink;
 }
