@@ -3,6 +3,10 @@
   --lightpink: #ffb6c1
   }
 
+:root {
+    --accent-color: lightpink;
+  }
+
   /* outline around player */
 #classPreviewCanvas {
   filter: drop-shadow(2px 2px var(--lightpink)) drop-shadow(-2px -2px var(--lightpink)) drop-shadow(-2px 2px var(--lightpink)) drop-shadow(2px -2px var(--lightpink));
@@ -82,30 +86,30 @@ iframe#bigMFeatVid,
 
 
 .material-icons-outlined {
-    font-family: 'Material Icons Outlined';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-    color: black !important;
+  font-family: 'Material Icons Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  color: lightpink !important;
 }
 
 
 #policeButton {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    color: #fff;
-    display: inline-block;
-    border-radius: 6px;
-    border: 4px solid #00000000 !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  color: #fff;
+  display: none;
+  border-radius: 6px;
+  border: 4px solid #00000000 !important;
 }
 
 #mainLogo {
@@ -141,13 +145,7 @@ iframe#bigMFeatVid,
   left: -50%;
 }
 
-.weapIcon {
-  height: 50%;
-  width: 50%;
-  left: -19%;
-  position: relative;
-  filter: brightness(0) contrast(100%);
-}
+
 
 .weapItem[style*="1"] {
   opacity: 1 !important;
@@ -421,15 +419,20 @@ iframe#bigMFeatVid,
   left: 77%;
   bottom: 0%;
   position: fixed;
+  border: 4px solid #00000000 !important;
 }
 
+#customizeButton:hover {
+  font-size: 33px !important;
+}
 
 
 #instructions:after  {
   font-size:20px;
   content:"poop";
-  color: #ffffff;
+  color: lightpink;
   text-shadow: 0px 0px 6px black;
+  
 }
 
 #instructions {
@@ -565,7 +568,7 @@ iframe#bigMFeatVid,
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #a8a8a8;
+  background-color: #000000;
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 34px;
@@ -632,4 +635,270 @@ iframe#bigMFeatVid,
   margin-left: 3px;
   margin-right: 3px;
   border: 4px solid #00000000 !important;
+}
+
+.button.small:hover {
+    font-size: 25px !important;
+}
+
+#PC7WaterMark2 {
+    color: rgb(255, 255, 255);
+    font-size: 12px !important;
+    display: block;
+    margin-top: 5px;
+    display: none !important;
+}
+
+#mapInfoHld {
+  pointer-events: all;
+  text-align: left;
+  padding-left: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 12px;
+  border-bottom: 5px solid #585858;
+  padding-bottom: 15px;
+  top: -1380%;
+  position: absolute;
+  right: -105%;
+}
+
+#mapInfo {
+  color: #fff;
+  font-size: 10px;
+  display: block
+}
+
+#signedInHeaderBar {
+  padding-right: 0px !important;
+  border-bottom-right-radius: 10px !important;
+  background-color: transparent;
+}
+
+
+#mLevelCont {
+  display: inline-block;
+  background-color: rgb(0 0 0 / 0%);
+  border-bottom-right-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+
+.headerBar {
+  position: absolute;
+  top: 0;
+  height: 70px;
+  padding: 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(0 0 0 / 0%);
+  pointer-events: auto;
+}
+
+.progressBarInner {
+  height: 100%;
+  transition: width 1s ease-in-out;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, #ffb6c1, #ffb6c1, 94%, white) !important;
+}
+
+
+#menuTimer {
+  
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 27px !important;
+    color: black !important;
+
+}
+
+
+.button {
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 4px solid white;
+  text-align: center;
+  color: lightpink;
+  pointer-events: all;
+  cursor: pointer;
+  -webkit-transition: all 0.08s;
+  transition: all 0.08s;
+  height: 30px;
+  vertical-align: bottom;
+  font-size: 20px !important;
+  line-height: 35px;
+  background-color: rgb(0 0 0 / 0%);
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+#menuClassIcn {
+  margin-left: 10px;
+  background-color: lightpink;
+  border-radius: 4px;
+  border: 4px solid rgb(255 255 255 / 40%);
+  width: 85px;
+  height: 85px;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.switchsml {
+  width: 100px;
+  height: 20px;
+}
+
+#uiBase.onMenu #spectButton span {
+  font-size: 0px !important;
+}
+
+
+.sliderSml {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000 !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  pointer-events: all;
+}
+
+
+.sliderSml:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+  display: none;
+}
+
+input:checked + .sliderSml {
+  background-color: lightpink;
+}
+
+
+.weapIcon {
+  margin-bottom: -20px;
+  position: fixed;
+  left: 50%;
+  right: unset;
+  bottom: 30px;
+  transform: translateX(-50%);
+  height: auto;
+  width: 200px;
+  filter: brightness(0) drop-shadow(0 0 5px var(--accent-color));
+}
+
+
+.greyInner, .greyInlineInner, .greyInlineInnerMid {
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+}
+
+#chatSwitch {
+  font-size: 33px;
+  pointer-events: all;
+  color: #ffb6c1;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+
+#voiceIcon {
+  color: lightpink;
+  font-size: 36px;
+  display: inline-block;
+}
+
+
+#recTimer {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 3px;
+  color: lightpink;
+  vertical-align: top;
+  max-width: 38px;
+  overflow: hidden;
+}
+
+* {
+  cursor: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/New_Project_1.png) 3 5, auto !important;
+}
+
+
+#menuClassSubtext {
+  z-index: 100;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  margin-bottom: -3px;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+  display: none;
+}
+
+
+.killStreakItem {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0px 3px;
+  background-color: var(--div-black);
+  border-radius: 4px;
+  right: -87%;
+}
+
+
+#menuAccountUsername {
+  vertical-align: bottom;
+  display: inline-block;
+  color: black;
+}
+
+#mailIcon {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  pointer-events: all;
+  color: black !important;
+}
+
+#mLevelContV {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  line-height: 70px;
+  color: #000;
+  text-align: left;
+}
+
+#menuRegionLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  color: black;
 }
