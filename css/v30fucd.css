@@ -113,7 +113,7 @@ iframe#bigMFeatVid,
 }
 
 #mainLogo {
-  content: url(hhttps://github.com/crazy-90/krunker.io/blob/main/images/poop.png?raw=true);
+  content: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/poop.png);
   align-items: center;
   width: 50%;
   height: 50%;
