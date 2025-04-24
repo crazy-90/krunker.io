@@ -132,6 +132,18 @@ iframe#bigMFeatVid,
   top: -3%;
 }
 
+.weapIcon {
+    margin-bottom: -20px;
+    position: fixed;
+    left: 44%;
+    right: unset;
+    bottom: 118px;
+    transform: translateX(-50%);
+    height: auto;
+    width: 200px;
+    filter: brightness(0) drop-shadow(0 0 5px var(--accent-color));
+}
+
 .weapItemInner {
   color: rgba(255, 255, 255, 0.7);
   background-color: transparent;
