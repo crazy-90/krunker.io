@@ -133,15 +133,12 @@ iframe#bigMFeatVid,
 }
 
 .weapIcon {
-    margin-bottom: -20px;
-    position: fixed;
-    left: 44%;
-    right: unset;
-    bottom: 118px;
-    transform: translateX(-50%);
-    height: auto;
-    width: 200px;
-    filter: brightness(0) drop-shadow(0 0 5px var(--accent-color));
+	position: relative;
+    left: 40% !important;
+    height: 50%;
+    width: 50%;
+    top: 82%;
+  filter: brightness(0) drop-shadow(0 0 5px var(--accent-color));
 }
 
 .weapItemInner {
