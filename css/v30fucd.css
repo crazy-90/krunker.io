@@ -793,7 +793,7 @@ iframe#bigMFeatVid,
 }
 
 input:checked + .sliderSml {
-  background-color: lightpink;
+  background-color: lightpink !important;
 }
 
 
