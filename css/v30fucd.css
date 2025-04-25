@@ -1,3 +1,9 @@
+@font-face {
+  font-family: gamefont;
+  src: url((https://fonts.gstatic.com/s/winkysans/v1/ll85K2SDUiG1Hpf2p06bN6MokzYb.woff2) format('woff2'));
+}
+
+
 
 :root {
   --lightpink: #ffb6c1
@@ -667,9 +673,9 @@ iframe#bigMFeatVid,
   font-size: 12px;
   border-bottom: 5px solid #585858;
   padding-bottom: 15px;
-  top: -1380%;
+  top: -1500%;
   position: absolute;
-  right: -105%;
+  right: -80%;
 }
 
 #mapInfo {
