@@ -1,10 +1,3 @@
-@font-face {
-  font-family: gamefont;
-  src: url((https://fonts.gstatic.com/s/winkysans/v1/ll85K2SDUiG1Hpf2p06bN6MokzYb.woff2) format('woff2'));
-}
-
-
-
 :root {
   --lightpink: #ffb6c1
   }
