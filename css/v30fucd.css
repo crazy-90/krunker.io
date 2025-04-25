@@ -112,6 +112,7 @@ iframe#bigMFeatVid,
 }
 
 #mainLogo {
+  display: none !important;
   content: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/poop.png);
   align-items: center;
   width: 50%;
@@ -268,6 +269,7 @@ iframe#bigMFeatVid,
   align-items: center;
   justify-items: center;
   display: none;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -438,14 +440,17 @@ iframe#bigMFeatVid,
 
 #instructions:after  {
   font-size:20px;
-  content:"poop";
+  content:url(https://github.com/crazy-90/krunker.io/blob/main/images/carrrrr.png?raw=true);
   color: lightpink;
   text-shadow: 0px 0px 6px black;
+
   
 }
 
 #instructions {
   font-size: 0px!important;
+  position: absolute;
+  top: 15%;
 }
 
 
@@ -667,9 +672,9 @@ iframe#bigMFeatVid,
   font-size: 12px;
   border-bottom: 5px solid #585858;
   padding-bottom: 15px;
-  top: -1500%;
+  top: -1560%;
   position: absolute;
-  right: -80%;
+  right: -100%;
 }
 
 #mapInfo {
@@ -693,6 +698,7 @@ iframe#bigMFeatVid,
   padding-right: 15px;
   height: 70px;
   margin-left: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
 }
 
 
@@ -721,12 +727,13 @@ iframe#bigMFeatVid,
   
     display: block;
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 49% !important;
+    left: 1111px;
     margin-right: 50%;
     transform: translate(-50%,-50%);
     font-size: 27px !important;
     color: black !important;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
 
 }
 
@@ -878,11 +885,11 @@ input:checked + .sliderSml {
   right: -87%;
 }
 
-
 #menuAccountUsername {
   vertical-align: bottom;
   display: inline-block;
   color: black;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
 }
 
 #mailIcon {
@@ -892,6 +899,7 @@ input:checked + .sliderSml {
   transition: all 0.2s;
   pointer-events: all;
   color: black !important;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
 }
 
 #mLevelContV {
@@ -910,4 +918,5 @@ input:checked + .sliderSml {
   align-items: center;
   margin-bottom: 3px;
   color: black;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
 }
