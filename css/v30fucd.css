@@ -99,6 +99,7 @@ iframe#bigMFeatVid,
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
   color: lightpink !important;
+  filter: brightness(0) drop-shadow(0 0 5px var(--accent-color));
 }
 
 
@@ -283,45 +284,28 @@ iframe#bigMFeatVid,
 
 
 
-    /* health bar */
-  
-    #bottomLeftHealthBar {
-      width: 300px;
-      position: fixed;
-      bottom: 25px
-     
+.nHealthBarSeg {
+  height: 50px;
+  margin: 0px -8px;
 }
 
-.nHealthBarSeg {
-      height: 21px;
-      margin: 0 -2px;
-      background:transparent
+#bottomLeftHealthBar {
+  column-gap: 0px;
+  padding: 0px;
 }
 
 .nHpBSeg {
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
-.nHealthBarSeg:first-child .nHpBSeg{
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+#bottomLeftPlayer {
+  width: 375px;
+  grid-template-columns: 105px 250px auto;
 }
-
-.nHealthBarSeg:last-child .nHpBSeg {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
 
 #bottomLeftPlayerLeft {
-  width: 90px;
-  height: 90px;
-  display: inline-block;
-  background-color: var(--div-grey);
-  margin: 3px;
-  display: none;
+  margin: 0px;
 }
-
 
 #tcStringBtn {
 	display: none !important;
@@ -440,7 +424,7 @@ iframe#bigMFeatVid,
 
 #instructions:after  {
   font-size:20px;
-  content:url(https://github.com/crazy-90/krunker.io/blob/main/images/carrrrr.png?raw=true);
+  content:url(https://github.com/crazy-90/krunker.io/blob/main/images/image1.png?raw=true);
   color: lightpink;
   text-shadow: 0px 0px 6px black;
 
@@ -448,9 +432,9 @@ iframe#bigMFeatVid,
 }
 
 #instructions {
-  font-size: 0px!important;
+  font-size:0px!important;
   position: absolute;
-  top: 15%;
+  top: 10%;
 }
 
 
@@ -499,6 +483,8 @@ iframe#bigMFeatVid,
 
 #timerHolder.topLeftOld {
   background-color: transparent !important;
+  left: 947px !important;
+  position: fixed;
 }
 
 #timerIcon {
@@ -728,7 +714,7 @@ iframe#bigMFeatVid,
     display: block;
     position: absolute;
     top: 49% !important;
-    left: 1111px;
+    left: 1027px !important;
     margin-right: 50%;
     transform: translate(-50%,-50%);
     font-size: 27px !important;
@@ -919,4 +905,155 @@ input:checked + .sliderSml {
   margin-bottom: 3px;
   color: black;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 5.0));
+}
+
+
+#bottomLeftClassImg {
+  border-radius: 30%;
+  content: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/0fa1c61f76d323f8bb79224beb55ca0a.png) !important;
+}
+
+
+.nHealthBarSeg {
+  height: 50px;
+  margin: 0px -8px;
+  background-color: transparent !important;
+}
+
+#bottomLeftHealthBar {
+  column-gap: 0px;
+  padding: 0px;
+  background-color: transparent !important;
+}
+
+.nHpBSeg {
+  border-radius: 10px;
+}
+
+#bottomLeftPlayer {
+  width: 375px;
+  grid-template-columns: 105px 250px auto;
+  background-color: var(--div-black);
+}
+
+#bottomLeftPlayerLeft {
+  margin: 0px;
+  background-color: transparent !important;
+}
+
+
+.xpEndBarB {
+  background-image: linear-gradient(to right, #ffb6c1, #ffb6c1, 94%, white) !important;
+}
+
+
+.endTableN[style*="#fff"], .leaderNameM, .newLeaderNameM {
+  filter: drop-shadow(1px 1px black) drop-shadow(-1px -1px black) drop-shadow(-1px 1px black) drop-shadow(1px -1px black)
+  !important;
+}
+
+.xpEndBPBarB {
+  background-image: linear-gradient(to right, #ffb6c1, #ffb6c1, 94%, white) !important;
+}
+
+.custContainer {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(0 0 0) !important;
+  padding: 5px;
+  border: 3px solid rgb(255 255 255 / 40%);
+  border-radius: 5px;
+  box-shadow: inset 0 0 50px 0px rgb(0,0,0, 10%) !important;
+  margin-top: 5px;
+  width: 46.9%;
+  height: 150px;
+  opacity: 0.7;
+  /* cursor: not-allowed; */
+  border-color: lightpink;
+}
+
+
+.selectorItem:hover {
+  background-color: #000000;
+}
+
+
+#menuWindow.dark {
+  background-color: #353535 !;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  color: black !important;
+  box-shadow: 2px 2px 8px rgb(0 0 0) !important;
+}
+
+
+#selectorContainer {
+  position: sticky;
+  display: table;
+  width: calc(100% + 40px);
+  background-color: #000000 !important;
+  margin: -20px;
+  top: -20px;
+  margin-bottom: 20px;
+  text-align: center;
+  table-layout: fixed;
+  z-index: 6;
+}
+
+
+.selectedItem {
+  border: 3px solid lightpink !important;
+  border-radius: 6px;
+}
+
+
+#menuWindow {
+  border-radius: 6px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: left;
+  pointer-events: auto;
+  padding: 20px;
+  width: 705px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: calc(100% - 250px);
+  font-size: 20px;
+  background-color: #000 !important;
+  -webkit-box-shadow: 0px 9px 0px 0px #a6a6a6;
+  -moz-box-shadow: 0px 9px 0px 0px #a6a6a6;
+  box-shadow: 0px 9px 0px 0px #a6a6a6;
+}
+
+
+.classCard {
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+  margin-left: 6px;
+  margin-right: 7px;
+  padding: 10px;
+  width: 246px;
+  height: 95px;
+  vertical-align: top;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 24px;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 0.5rem #000000;
+  background: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/Image_1.png);
+}
+
+.clsXPBarC {
+  margin: 4px;
+  background-image: linear-gradient(to right, #ffb6c1, #ffb6c1, 94%, white) !important;
+  height: 18px;
 }
