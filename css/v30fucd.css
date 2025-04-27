@@ -760,7 +760,9 @@ iframe#bigMFeatVid,
 .switchsml {
   width: 100px;
   height: 20px;
+  margin-left: -9px;
 }
+
 
 #uiBase.onMenu #spectButton span {
   font-size: 0px !important;
@@ -972,6 +974,7 @@ input:checked + .sliderSml {
   opacity: 0.7;
   /* cursor: not-allowed; */
   border-color: lightpink;
+  filter: drop-shadow(0 0 10px rgba(255, 182, 193, 1.0));
 }
 
 
@@ -1006,6 +1009,7 @@ input:checked + .sliderSml {
 .selectedItem {
   border: 3px solid lightpink !important;
   border-radius: 6px;
+  filter: drop-shadow(0 0 10px rgba(255, 182, 193, 1.0));
 }
 
 
@@ -1052,6 +1056,7 @@ input:checked + .sliderSml {
   position: relative;
   box-shadow: 0 0 0.5rem #000000;
   background-color: #535050;
+  filter: drop-shadow(0 0 10px rgba(255, 182, 193, 1.0));
 }
 
 .clsXPBarC {
