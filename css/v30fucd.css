@@ -301,6 +301,8 @@ iframe#bigMFeatVid,
 #bottomLeftPlayer {
   width: 375px;
   grid-template-columns: 105px 250px auto;
+  background-color: rgb(20 20 20 / 45%);
+  border-radius: 23px;
 }
 
 #bottomLeftPlayerLeft {
@@ -933,7 +935,7 @@ input:checked + .sliderSml {
 #bottomLeftPlayer {
   width: 375px;
   grid-template-columns: 105px 250px auto;
-  background-color: var(--div-black);
+  background-color: var(--div-grey);
 }
 
 #bottomLeftPlayerLeft {
@@ -1049,7 +1051,7 @@ input:checked + .sliderSml {
   cursor: pointer;
   position: relative;
   box-shadow: 0 0 0.5rem #000000;
-  background: url(https://raw.githubusercontent.com/crazy-90/krunker.io/refs/heads/main/images/Image_1.png);
+  background-color: #535050;
 }
 
 .clsXPBarC {
