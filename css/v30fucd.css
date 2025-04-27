@@ -512,7 +512,7 @@ iframe#bigMFeatVid,
 }
 
 .leaderName, .leaderNameM, .leaderNameF {
-  color: lightpink !important;
+  color: rgb(255, 255, 255) !important;
   flex-grow: 1;
   padding-left: 5px;
   overflow: hidden;
@@ -1009,7 +1009,6 @@ input:checked + .sliderSml {
 .selectedItem {
   border: 3px solid lightpink !important;
   border-radius: 6px;
-  filter: drop-shadow(0 0 10px rgba(255, 182, 193, 1.0));
 }
 
 
@@ -1063,4 +1062,10 @@ input:checked + .sliderSml {
   margin: 4px;
   background-image: linear-gradient(to right, #ffb6c1, #ffb6c1, 94%, white) !important;
   height: 18px;
+}
+
+
+.blackShad {
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c;
+  background-color: black !important;
 }
