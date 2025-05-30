@@ -2,7 +2,7 @@
 ### Dye Mod Tutorial
 https://www.youtube.com/watch?v=Cgl5MZ3TduY
 <iframe width="946" height="532" src="https://www.youtube.com/embed/KIKRvkmdmIw" title="Blender Dye Mod Guide Krunker.io" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+[![Watch the video]([https://i.sstatic.net/Vp2cE.png](https://www.youtube.com/watch?v=KIKRvkmdmIw&t=2s))]([https://youtu.be/vt5fpE0bzSY](https://www.youtube.com/watch?v=KIKRvkmdmIw&t=2s)
 
 # CSS's preview
 ### v30fucd CSS (very pink)
