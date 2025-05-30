@@ -1,4 +1,4 @@
-# Dye Mod Projec Files
+# Dye Mod Project Files
 ### Dye Mod Tutorial
 https://www.youtube.com/watch?v=Cgl5MZ3TduY
 
