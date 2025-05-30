@@ -1,3 +1,10 @@
+# Dye Mod Projec Files
+### Dye Mod Tutorial
+
+
+
+
+
 # CSS's preview
 ### v30fucd CSS (very pink)
 ![Screenshot 2025-04-24 184700](https://github.com/user-attachments/assets/02decaf3-e0bc-457f-9cc4-52248d582a6d)
