@@ -1,7 +1,6 @@
 # Dye Mod Projec Files
 ### Dye Mod Tutorial
-[[<iframe width="946" height="532" src="https://www.youtube.com/embed/Cgl5MZ3TduY" title="The Video Ends when I 100% Mario Odyssey From Memory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/Cgl5MZ3TduY?t=399)](https://youtu.be/Cgl5MZ3TduY)
-
+https://www.youtube.com/watch?v=Cgl5MZ3TduY
 
 
 
