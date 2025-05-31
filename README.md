@@ -1,6 +1,6 @@
 # Dye Mod Project Files
 ### Dye Mod Tutorial
-https://www.youtube.com/watch?v=Cgl5MZ3TduY
+[https://www.youtube.com/watch?v=Cgl5MZ3TduY](https://www.youtube.com/watch?v=KIKRvkmdmIw&t=13s)
 
 # CSS's preview
 ### v30fucd CSS (very pink)
